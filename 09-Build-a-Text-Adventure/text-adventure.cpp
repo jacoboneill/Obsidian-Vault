@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-typedef std::string String;
+using String = std::string;
 
 int main() {
   String bedroom = "You are found in a bedroom.";
