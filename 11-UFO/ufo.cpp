@@ -4,6 +4,7 @@
 int main() {
 std::string codeword = "codecademy";
 std::string answer(codeword.size(), '_');
+int misses = 0;
 
 greet();
 
