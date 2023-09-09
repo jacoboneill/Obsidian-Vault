@@ -135,7 +135,7 @@ void greet(){
   "=============" << '\n' <<
   "UFO: The Game" << '\n' <<
   "=============" << '\n' <<
-  "Instructions: save your friend from alien abduction by guessing the letters in the codeword" << '\n';
+  "Instructions: save your friend from alien abduction by guessing the letters in the codeword" << "\n\n\n";
 }
 
 void end_game(std::string answer, std::string codeword){
@@ -144,4 +144,26 @@ void end_game(std::string answer, std::string codeword){
   } else {
     std::cout << "Oh no! The UFO just flew away with another person!" << '\n';
   }
+}
+
+template <typename T>
+void display(std::string title, T data){
+  std::cout << title << ": ";
+  if(!data.empty()){
+    for(int i=0; i < data.size(); i++){
+      std::cout << data[i];
+      if(i != data.size() - 1){
+        std::cout << ' ';
+      } else {
+        std::cout << '\n';
+      }
+    }
+  } else {
+    std::cout << '\n';
+  }
+}
+
+void display_status(std::vector<char> incorrect, std::string answer){
+  display("Incorrect Guesses", incorrect);
+  display("Codeword", answer);
 }
