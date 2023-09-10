@@ -11,6 +11,8 @@ bool guess = false;
 greet();
 
 while(answer != codeword && misses < 7){
+    clear_screen();
+    display_misses(misses);
     display_status(incorrect, answer);
 
     misses++;

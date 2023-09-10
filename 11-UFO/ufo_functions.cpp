@@ -167,3 +167,7 @@ void display_status(std::vector<char> incorrect, std::string answer){
   display("Incorrect Guesses", incorrect);
   display("Codeword", answer);
 }
+
+void clear_screen(){
+  std::cout << "\033[2J\033[1;1H";
+}
