@@ -19,19 +19,23 @@ while(answer != codeword && misses < 7){
     std::cout << "Please enter your guess: ";
     std::cin >> letter;
 
-    int letter_index = codeword_check(codeword, letter);
-    if(letter_index > 0){
-        answer[letter_index] = letter;
+    std::vector<int> letter_indexes = codeword_check(codeword, letter);
+    if(letter_indexes.size() > 0){
+        for(int i=0; i < letter_indexes.size(); i++){
+            answer[letter_indexes[i]] = letter;
+        }
         guess = true;
     }
 
     if(guess){
-        std::cout << "Correct!";
+        std::cout << "Correct!\n";
     } else {
-        std::cout << "Incorrect! The tractor beam pulls the person in further.";
+        std::cout << "Incorrect! The tractor beam pulls the person in further.\n";
         incorrect.push_back(letter);
         misses++;
     }
+
+    guess = false;
 }
 
 end_game(answer, codeword);

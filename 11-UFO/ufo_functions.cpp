@@ -172,11 +172,14 @@ void clear_screen(){
   std::cout << "\033[2J\033[1;1H";
 }
 
-int codeword_check(std::string codeword, char letter){
+std::vector<int> codeword_check(std::string codeword, char letter){
+  std::vector<int> indexes;
+  
   for(int i=0; i < codeword.size(); i++){
     if(codeword.at(i) == letter){
-      return i;
+      indexes.push_back(i);
     }
   }
-    return -1;
+
+  return indexes;
 }
