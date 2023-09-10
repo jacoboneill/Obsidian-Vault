@@ -171,3 +171,12 @@ void display_status(std::vector<char> incorrect, std::string answer){
 void clear_screen(){
   std::cout << "\033[2J\033[1;1H";
 }
+
+int codeword_check(std::string codeword, char letter){
+  for(int i=0; i < codeword.size(); i++){
+    if(codeword.at(i) == letter){
+      return i;
+    }
+  }
+    return -1;
+}
