@@ -17,5 +17,5 @@ int main(){
     }
   }
 
-  drawWin(is_player_1s_turns);
+  drawWin(is_player_1s_turn);
 }
