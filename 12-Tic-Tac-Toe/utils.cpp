@@ -43,6 +43,39 @@ void drawBoard(std::vector<char> board){
   std::cout << stringifyBoard(board);
 };
 
+std::vector<int> getEmptyValues(std::vector<char> board){
+  std::vector<int> empty_values;
+
+  for(int i = 0; i < board.size(); i++){
+    if(board[i] != '\0'){ empty_values.push_back(i); }
+  }
+
+  return empty_values;
+};
+
+void printPrompt(std::vector<int> empty_values){ 
+  std::cout << "Please pick from the following options: ";
+  
+  for(int i = 0; i < empty_values.size(); i++){
+    std::cout << empty_values[i];
+    if(i < empty_values.size()){
+      std::cout << ", ";
+    }
+  }
+  
+  std::cout << '\n';
+}
+
+int getInput(std::vector<char> board){
+  std::vector<int> empty_values = getEmptyValues(board);
+  int piece = -1;
+
+  while(piece == -1){
+    printPrompt(empty_values);
+  }
+
+};
+
 // int main(){
 //   std::vector<char> board(9);
 //   drawBoard(board);

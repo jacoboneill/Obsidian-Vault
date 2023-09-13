@@ -10,7 +10,7 @@ int main(){
   // while(!win){
     drawBoard(board);
     drawInput(is_player_1s_turn);
-    // int new_piece = getInput();
+    int new_piece = getInput(board);
     // board = updateBoard(new_piece);
     // if(isWin(board)){
       // win = true;
