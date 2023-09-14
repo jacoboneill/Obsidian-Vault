@@ -30,17 +30,10 @@ std::string stringifyBoard(std::vector<char> board){
   return stringified_board;
 };
 
-class InvalidSizeException : public std::exception {
-  public:
-    const char* what() const noexcept override {
-      return "Vector size must be 9";
-    }
-};
-
 void drawBoard(std::vector<char> board){
-  if(board.size() !=9){ throw InvalidSizeException(); }
+  if(board.size() !=9){ throw std::invalid_argument("Board must contain 9 items"); }
 
-  std::cout << stringifyBoard(board);
+  std::cout << stringifyBoard(board) << "\n\n";
 };
 
 std::vector<int> getEmptyValues(std::vector<char> board){
@@ -62,21 +55,31 @@ void printPrompt(std::vector<int> empty_values){
       std::cout << ", ";
     }
   }
-  
-  std::cout << '\n';
 }
 
 int getInput(std::vector<char> board){
   std::vector<int> empty_values = getEmptyValues(board);
+  char user_input_char;
+  int user_input_int;
   int piece = -1;
-
   while(piece == -1){
     printPrompt(empty_values);
+    std::cin >> user_input_char;
+
+    if(isdigit(user_input_char)){
+      for(int i = 0; i < empty_values.size(); i++){
+        if()
+      }
+    }
+    //clearScreen()
   }
+
+  return 0;
 
 };
 
-// int main(){
-//   std::vector<char> board(9);
-//   drawBoard(board);
-// };
+int main(){
+  std::vector<char> board(9);
+  drawBoard(board);
+  int piece = getInput(board);
+};
