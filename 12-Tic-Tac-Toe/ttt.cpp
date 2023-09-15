@@ -33,4 +33,10 @@ int main(){
     }
     moves_played++;
   }
+
+  if(win){
+    drawWin(board, winner);
+  } else {
+    drawTie(board);
+  }
 }

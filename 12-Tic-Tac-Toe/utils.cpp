@@ -154,3 +154,15 @@ char isWin(std::vector<char> board){
 
   return '\0';
 }
+
+void drawWin(std::vector<char> board, char winner){
+  clearScreen();
+  drawBoard(board);
+  std::cout << "Congratulations " << winner << "!" << '\n';
+}
+
+void drawTie(std::vector<char> board){
+  clearScreen();
+  drawBoard(board);
+  std::cout << "The game was a tie." << '\n';
+}
