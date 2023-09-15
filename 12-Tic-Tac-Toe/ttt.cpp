@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include "utils.hpp"
 
 int main(){
@@ -8,9 +9,9 @@ int main(){
   bool is_player_1s_turn = true;
 
   // while(!win){
-    drawBoard(board);
-    drawInput(is_player_1s_turn);
-    int new_piece = getInput(board);
+    // drawBoard(board);
+    // drawInput(is_player_1s_turn);
+    // int new_piece = getInput(board);
     // board = updateBoard(new_piece);
     // if(isWin(board)){
       // win = true;
@@ -18,4 +19,9 @@ int main(){
   // }
 
   // drawWin(is_player_1s_turn);
+
+  while(!win){
+    board = draw(board, is_player_1s_turn);
+    is_player_1s_turn = !is_player_1s_turn;
+  }
 }

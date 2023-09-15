@@ -1,8 +1,5 @@
 #include <vector>
 
-void drawBoard(std::vector<char> board);
-void drawInput(bool is_player_1s_turn);
-int getInput(std::vector<char> board);
-std::vector<char> updateBoard(int new_piece);
+std::vector<char> draw(std::vector<char> board, bool is_player_1);
 bool isWin(std::vector<char> board);
 void drawWin(bool is_player_1s_turn);

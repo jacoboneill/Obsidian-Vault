@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <stdexcept>
+#include <cstdlib>
 
 std::string generateRow(std::vector<char> board, int start, int end){
   std::string row;
@@ -40,46 +41,82 @@ std::vector<int> getEmptyValues(std::vector<char> board){
   std::vector<int> empty_values;
 
   for(int i = 0; i < board.size(); i++){
-    if(board[i] != '\0'){ empty_values.push_back(i); }
+    if(board[i] == 0){ empty_values.push_back(i); }
   }
 
   return empty_values;
 };
 
-void printPrompt(std::vector<int> empty_values){ 
+void drawInputPrompt(std::vector<int> empty_values){
   std::cout << "Please pick from the following options: ";
   
   for(int i = 0; i < empty_values.size(); i++){
-    std::cout << empty_values[i];
-    if(i < empty_values.size()){
+    std::cout << empty_values[i] + 1;
+    if(i < empty_values.size() - 2){
       std::cout << ", ";
     }
+    if(i == empty_values.size() - 2){
+      std::cout << " or ";
+    }
   }
+  std::cout << ": ";
 }
+
+int convertStringToInt(std::string in){
+  if(in.size() == 1){
+    if(isdigit(in[0])){
+      return in[0] - '0' - 1;
+    }
+  }
+  return -1;
+}
+
+bool userIndexValid(std::vector<int> empty_values, int target){
+  for(int i = 0; i < empty_values.size(); i++){
+    if(empty_values[i] == target){
+      return true;
+    }
+  }
+  return false;
+}
+
+void clearScreen(){
+  system("clear");
+}
+
+int getInputValue(std::vector<int> empty_values){
+  std::string user_input;
+  int user_index;
+  int piece = -1;
+  
+  std::cin >> user_input;
+
+  user_index = convertStringToInt(user_input);
+  if(userIndexValid(empty_values, user_index)){
+    piece = user_index;
+  }
+
+  return piece;
+};
 
 int getInput(std::vector<char> board){
   std::vector<int> empty_values = getEmptyValues(board);
-  char user_input_char;
-  int user_input_int;
-  int piece = -1;
-  while(piece == -1){
-    printPrompt(empty_values);
-    std::cin >> user_input_char;
+  drawInputPrompt(empty_values);
+  return getInputValue(empty_values);
+}
 
-    if(isdigit(user_input_char)){
-      for(int i = 0; i < empty_values.size(); i++){
-        if()
-      }
-    }
-    //clearScreen()
+std::vector<char> updateBoard(std::vector<char> board, int index, bool is_player_1){
+  board[index] = (is_player_1 ? 'X' : 'O');
+  return board;
+}
+
+std::vector<char> draw(std::vector<char> board, bool is_player_1){
+  int index = -1;
+  while(index == -1){
+    clearScreen();
+    drawBoard(board);
+    index = getInput(board);
   }
 
-  return 0;
-
-};
-
-int main(){
-  std::vector<char> board(9);
-  drawBoard(board);
-  int piece = getInput(board);
-};
+  return updateBoard(board, index, is_player_1);
+}
