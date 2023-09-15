@@ -124,16 +124,10 @@ std::vector<char> updateBoard(std::vector<char> board, int index, bool is_player
   return board;
 }
 
-std::vector<char> draw(std::vector<char> board, bool is_player_1s_turn, int debug_a, bool debug_b, char debug_c){
+std::vector<char> draw(std::vector<char> board, bool is_player_1s_turn){
   int index = -1;
   while(index == -1){
     clearScreen();
-    std::cout << 
-      "move count: " << debug_a << '\n' <<
-      "win: " << debug_b << '\n' <<
-      "isWin: " << debug_c << '\n' <<
-      "win = '\\0': " << (debug_c == '\0') << "\n\n\n";
-
     drawBoard(board);
     index = getInput(board);
   }
