@@ -22,6 +22,6 @@ int main(){
 
   while(!win){
     board = draw(board, is_player_1s_turn);
-    is_player_1s_turn = !is_player_1s_turn;
+    is_player_1s_turn = togglePlayer(is_player_1s_turn);
   }
 }

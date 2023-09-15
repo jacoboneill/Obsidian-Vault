@@ -105,12 +105,12 @@ int getInput(std::vector<char> board){
   return getInputValue(empty_values);
 }
 
-std::vector<char> updateBoard(std::vector<char> board, int index, bool is_player_1){
-  board[index] = (is_player_1 ? 'X' : 'O');
+std::vector<char> updateBoard(std::vector<char> board, int index, bool is_player_1s_turn){
+  board[index] = (is_player_1s_turn ? 'X' : 'O');
   return board;
 }
 
-std::vector<char> draw(std::vector<char> board, bool is_player_1){
+std::vector<char> draw(std::vector<char> board, bool is_player_1s_turn){
   int index = -1;
   while(index == -1){
     clearScreen();
@@ -118,5 +118,9 @@ std::vector<char> draw(std::vector<char> board, bool is_player_1){
     index = getInput(board);
   }
 
-  return updateBoard(board, index, is_player_1);
+  return updateBoard(board, index, is_player_1s_turn);
+}
+
+bool togglePlayer(bool is_player_1s_turn){
+  return !is_player_1s_turn;
 }
