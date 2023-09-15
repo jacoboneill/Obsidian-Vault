@@ -48,18 +48,32 @@ std::vector<int> getEmptyValues(std::vector<char> board){
 };
 
 void drawInputPrompt(std::vector<int> empty_values){
-  std::cout << "Please pick from the following options: ";
-  
-  for(int i = 0; i < empty_values.size(); i++){
-    std::cout << empty_values[i] + 1;
-    if(i < empty_values.size() - 2){
-      std::cout << ", ";
+  std::cout << "Please pick from the following options: " << '\n';
+  std::string stringifiedMatrix;
+
+
+  // Generate 3x3 matrix    
+  for (int i = 1; i <= 9; i++) {
+    bool found = false;
+
+    for (int j = 0; j < empty_values.size(); j++) {
+      if (empty_values[j] + 1 == i) {
+        std::cout << empty_values[j] + 1;
+          found = true;
+          break;
+        }
+      }
+    if (!found) {
+      std::cout << ' ';
     }
-    if(i == empty_values.size() - 2){
-      std::cout << " or ";
+    if (i % 3 == 0) {
+      std::cout << '\n';
+    } else {
+      std::cout << ' ';
     }
   }
-  std::cout << ": ";
+
+  std::cout << "\n\n";
 }
 
 int convertStringToInt(std::string in){
