@@ -110,10 +110,16 @@ std::vector<char> updateBoard(std::vector<char> board, int index, bool is_player
   return board;
 }
 
-std::vector<char> draw(std::vector<char> board, bool is_player_1s_turn){
+std::vector<char> draw(std::vector<char> board, bool is_player_1s_turn, int debug_a, bool debug_b, char debug_c){
   int index = -1;
   while(index == -1){
     clearScreen();
+    std::cout << 
+      "move count: " << debug_a << '\n' <<
+      "win: " << debug_b << '\n' <<
+      "isWin: " << debug_c << '\n' <<
+      "win = '\\0': " << (debug_c == '\0') << "\n\n\n";
+
     drawBoard(board);
     index = getInput(board);
   }
@@ -123,4 +129,28 @@ std::vector<char> draw(std::vector<char> board, bool is_player_1s_turn){
 
 bool togglePlayer(bool is_player_1s_turn){
   return !is_player_1s_turn;
+}
+
+char isWin(std::vector<char> board){
+  for(int i = 0; i < board.size()/3; i++){
+    bool row_win = board[i * 3] == board[i * 3 + 1] && board[i * 3 + 1] == board[i * 3 + 2];
+    if(row_win){
+      return board[i * 3];
+    }
+    
+    bool col_win = board[i] == board[i + 3] && board[i + 3] == board[i + 6];
+    if(col_win){
+      return board[i];
+    }
+  }
+
+  bool diag_win = 
+    board[0] == board[4] && board[4] == board[8] ||
+    board[2] == board[4] && board[4] == board[6];
+
+  if(diag_win){
+    return board[4];
+  }
+
+  return '\0';
 }

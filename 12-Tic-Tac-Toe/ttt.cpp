@@ -5,8 +5,10 @@
 int main(){
 
   bool win = false;
+  char winner;
   std::vector<char> board(9);
   bool is_player_1s_turn = true;
+  int moves_played = 0;
 
   // while(!win){
     // drawBoard(board);
@@ -21,7 +23,14 @@ int main(){
   // drawWin(is_player_1s_turn);
 
   while(!win){
-    board = draw(board, is_player_1s_turn);
+    board = draw(board, is_player_1s_turn, moves_played, win, isWin(board));
     is_player_1s_turn = togglePlayer(is_player_1s_turn);
+    if(moves_played >= 5){
+      winner = isWin(board);
+      win = winner != '\0';
+    } else if(moves_played >= 9){
+      break;
+    }
+    moves_played++;
   }
 }
