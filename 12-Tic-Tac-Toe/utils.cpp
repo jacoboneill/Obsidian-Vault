@@ -48,7 +48,7 @@ std::vector<int> getEmptyValues(std::vector<char> board){
 };
 
 void drawInputPrompt(std::vector<int> empty_values){
-  std::cout << "Please pick from the following options: " << '\n';
+  std::cout << "Please pick from the following options: " << "\n\n";
   std::string stringifiedMatrix;
 
 
