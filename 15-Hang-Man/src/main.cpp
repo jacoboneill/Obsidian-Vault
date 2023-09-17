@@ -1,4 +1,9 @@
 #include <iostream>
-int main(){
-    std::cout << "Hello World" << std::endl;
+
+#include "HangmanEngine.hpp"
+#include "HangmanFrontendTUI.hpp"
+
+int main() {
+  HangmanEngine& engine = HangmanEngine::getInstance();
+  engine.getWords();
 }
