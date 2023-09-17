@@ -6,5 +6,7 @@ int main(){
   std::string text = "I really hate broccoli. Broccoli smells";
 
   Bleep bleeper(word, text);
-  std::cout << bleeper.censor();
+  bleeper.censor();
+
+  std::cout << text << std::endl;
 }
