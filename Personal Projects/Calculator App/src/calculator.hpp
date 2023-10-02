@@ -25,4 +25,5 @@ class Calculator {
 
   bool isDigit(std::string &input);
   bool isOperator(std::string &input);
+  int getIndex(std::string operator);
 };

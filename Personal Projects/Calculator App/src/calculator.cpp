@@ -48,4 +48,8 @@ bool Calculator::isValid() {
   return false;
 }
 
-// double Calculator::calculate() {}
+double Calculator::calculate() {
+  int index = getIndex("+");
+
+  return 1.2;
+}
