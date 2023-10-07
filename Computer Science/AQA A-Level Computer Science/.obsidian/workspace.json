@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4c26b48514d22106",
+        "id": "1f94b013560f42b3",
         "type": "tabs",
         "children": [
           {
-            "id": "6e03bb176db17281",
+            "id": "977244022b2b0a60",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Constants and Variables.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Constants and Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Constants and Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Constants and Variables.md"
+              }
             }
           }
         ]
@@ -138,6 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e03bb176db17281",
-  "lastOpenFiles": []
+  "active": "977244022b2b0a60",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "Constants and Variables.md",
+    "Fundamentals of Programming.md",
+    "Naming and Storing Data.md",
+    "Templates/Notes.md",
+    "Programming Basics.md",
+    "Templates"
+  ]
 }
