@@ -2,7 +2,7 @@ Section: [[Programming Basics]]
 
 
 # Storing Data
-- Data is stored in memory adresses
+- Data is stored in memory addresses
 
 # Naming
 - Naming conventions should be used for readability
