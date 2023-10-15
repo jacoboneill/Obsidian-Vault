@@ -13,11 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Odometer.md",
+                "file": "Programming Concepts.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "41fb219d43e244a1"
+          }
+        ]
+      },
+      {
+        "id": "317438ce3e47d67a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6b8e147a90f23d2",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Programming Concepts.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
+            },
+            "group": "41fb219d43e244a1"
           }
         ]
       }
@@ -85,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Odometer.md",
+                "file": "Programming Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Odometer.md",
+                "file": "Programming Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Odometer.md"
+                "file": "Programming Concepts.md"
               }
             }
           }
@@ -146,16 +189,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "681aea9740c25825",
+  "active": "d6b8e147a90f23d2",
   "lastOpenFiles": [
+    "Fundamentals of Programming.md",
+    "Programming Basics.md",
     "Programming Concepts.md",
     "Odometer.md",
     "Postage Charges for Parcels.md",
     "Test Marks to Grades.md",
     "Repetition (Iteration).md",
     "Selection.md",
-    "Fundamentals of Programming.md",
-    "Programming Basics.md",
     "Built-In and User-Defined Data Types.md",
     "Assignment.md",
     "Sequencing.md",
