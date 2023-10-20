@@ -1,5 +1,3 @@
-Section: [[Programming Concepts]]
-
 Assignments refer to setting data in addresses. For example:
 ```cpp
 age = 15

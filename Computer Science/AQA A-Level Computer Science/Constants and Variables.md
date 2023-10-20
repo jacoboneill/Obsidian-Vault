@@ -1,5 +1,3 @@
-Section: [[Programming Basics]]
-
 # Constants
 - Constants are used to keep a variable the same throughout the lifetime of a program
 

@@ -1,5 +1,3 @@
-Section: [[Programming Basics]]
-
 # Built-In Types
 Built-in types are types which a programming language has made (see [[Data Types]]).
 

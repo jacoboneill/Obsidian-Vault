@@ -1,5 +1,3 @@
-Section: [[Basic Operations in Programming Languages]]
-
 # Arithmetic Operations
 ## Addition
 The sum of two or more variables.
