@@ -2,14 +2,14 @@
 Relational operations work by comparing between two data items. The data items are called the *operands* and the sign is the *operator*.
 Most programming languages use the following operators
 
-| Operator | Description |
-|----------|-------------|
-| = or == | Equal to |
-|<> or != | Not equal to|
-| < | Less than |
-| > | Greater than |
-| <= | Less than or equal to |
-| >= | Greater than or equal to |
+| Operator | Description              |
+|----------|--------------------------|
+| = or ==  | Equal to                 |
+|<> or !=  | Not equal to             |
+| <        | Less than                |
+| >        | Greater than             |
+| <=       | Less than or equal to    |
+| >=       | Greater than or equal to |
 
 These relational operations are used to group object comparisons instead of writing a case for every number.
 For example
