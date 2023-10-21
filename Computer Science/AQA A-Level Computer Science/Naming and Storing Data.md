@@ -1,6 +1,3 @@
-Section: [[Programming Basics]]
-
-
 # Storing Data
 - Data is stored in memory addresses
 

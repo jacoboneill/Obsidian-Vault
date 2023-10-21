@@ -1,5 +1,3 @@
-Section: [[Programming Concepts]]
-
 # Selection
 Selection refers to the comparison of values.
 

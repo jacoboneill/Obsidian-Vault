@@ -39,6 +39,6 @@
 - Write a program that reads in a file of test marks and then converts them to grades
 	- [[Test Marks to Grades]]
 - Write a program that works out the postage charges for parcels of different weights
-	- [[Postage Charges for Parcels]]
+	- [[Weight to Postage Charge]]
 - Write a program that simulates the odometer on a car
 	- [[Odometer]]
