@@ -274,3 +274,76 @@ For example: "*a*" is `0x61` in ASCII and Unicode.
 Some websites that have lookup tables for ASCII and Unicode include:
 - [ASCII](https://www.lookuptables.com/text/ascii-table)
 - [Unicode](https://www.lookuptables.com/text/unicode-characters) 
+
+## String → Integer and Integer → String
+String to integer conversions and vice versa are common in programming languages.
+
+C++ does this by using the  `std::stoi` for `std::string` → `int`, `atoi` for `char[]` → `int`, and `std::to_string` for `int` → `std::string`.
+```cpp
+#include <iostream>
+
+int main(int argc, char* argv[]){
+	std::string string1 = "1";
+	char string2[] = "2";
+	int number1 = 3;
+	
+	// String to integer conversion
+	int string1_int = std::stoi(string1);
+	int string2_int = atoi(string2);
+	
+	// Integer to string conversion
+	std::string number1_string = std::to_string(number1);
+	
+	std::cout << 
+	"std::string -> int: " << string1_int << std::endl <<
+	"char[] -> int " << string2_int << std::endl <<
+	"int -> std::string " << number1_string << 
+	std::endl;
+	
+	return 0;
+}
+
+/*
+OUTPUT:
+std::string -> int: 1
+char[] -> int 2
+int -> std::string 3
+*/
+```
+
+> Integer to classic C style arrays `char[]` are really difficult due to memory allocation.
+
+## String → Double and Double → String
+C++ handles string to double conversions and vice versa using the `std::string` library with use of the `std::stod()` method for `std::string` → `double`, and `std::to_string()` for `double` → `std::string`.
+```cpp
+#include <iostream>
+
+int main(int argc, char* argv[]){
+	std::string pi_s = "3.1415926";
+	
+	double pi_d = std::stod(pi_s);
+	float pi_f = std::stof(pi_s);
+	long double pi_ld = std::stold(pi_s);
+	
+	std::string pi_ds = std::to_string(pi_d);
+	
+	std::cout <<
+	"String: " << pi_s << std::endl <<
+	"Double: " << pi_d << std::endl <<
+	"Float: " << pi_f << std::endl <<
+	"Long Double: " << pi_ld << std::endl <<
+	"Back to String: " << pi_ds <<
+	std::endl;
+}
+
+/*
+OUTPUT:
+String: 3.1415926
+Double: 3.14159
+Float: 3.14159
+Long Double: 3.14159
+Back to String: 3.141593
+*/
+```
+
+## String → Date / Time and Date / Time → String
