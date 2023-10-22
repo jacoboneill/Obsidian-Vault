@@ -172,3 +172,105 @@ int main(int argc, char* argv[]){
 ```
 
 ## Substring
+A substring is a string inside a string. Programming languages typically let you select a substring with the start index and length.
+For example the substring *"Hello"* in *"Hello World"* would be from index `0` and have a length of `5`.
+
+In C++, using classic C strings, you can do this by doing the following:
+```cpp
+#include <iostream>
+
+int main(int argc, char* argv[]){
+	char string[] = "Hello World";
+	
+	int index_start = 0;
+	int substring_length = 5;
+	
+	char substring[substring_length];
+	
+	strncpy(substring, string + index_start, substring_length);
+	substring[substring_length] = '\0'; // Terminate string with null-terminate
+	
+	std::cout <<
+	"Original: " << string << " | Substring: " << substring << 
+	std::endl;
+	
+	return 0;
+}
+
+// OUTPUT: Original: Hello World | Substring: Hello
+```
+
+Using `std::string`, you can do this by doing the following:
+```cpp
+#include <iostream>
+
+int main(int argc, char* argv[]){
+	std::string string = "Hello World";
+	
+	int start_index = 0;
+	int substring_length = 5;
+	
+	std::string substring = string.substr(index_start, substring_length);
+	
+	std::cout <<
+	"Original: " << string << " | Substring: " << substring <<
+	std::endl;
+	
+	return 0;
+}
+
+// OUTPUT: Original: Hello World | Substring: Hello
+```
+
+## Concatenation
+Concatenation is the process of appending one string to another.
+
+In C++, using classic C strings, this can be done by doing the following:
+```cpp
+#include <iostream>
+
+int main(int argc, char* argv[]){
+	char string1[] = "Hello ";
+	char string2[] = "World";
+	int total_length = 11;
+	
+	char concat[total_length];
+	
+	// Copy string1 to concat. concat = "Hello "
+	strcpy(concat, string1);
+	
+	// Concatenate string2 to concat. concat = "Hello World"
+	strcat(concat, string2);
+	
+	std::cout << concat << std::endl;
+	
+	return 0;
+}
+
+// OUTPUT: Hello World
+```
+
+Using `std::string` this can be done by doing the following:
+```cpp
+#include <iostream>
+
+int main(int argc, char* argv[]){
+	std::string string1 = "Hello ";
+	std::string string2 = "World";
+	
+	std::string concat = string1 + string2;
+	
+	std::cout << concat << std::endl;
+	
+	return 0;
+}
+```
+
+## Character Codes
+All characters use either Unicode or ASCII. These encodings are used so computers can translate the binary data into characters on a screen.
+ASCII is a subset of the Unicode encoding. ASCII contains mainly only latin characters, while Unicode includes accented letters, Cyrillic, Greek, Arabic, Hebrew, Chinese, and Japanese characters, as well as emojis.
+For example: "*a*" is `0x61` in ASCII and Unicode.
+
+Some websites that have lookup tables for ASCII and Unicode include:
+- [ASCII](https://www.lookuptables.com/text/ascii-table)
+- [Unicode](https://www.lookuptables.com/text/unicode-characters) 
