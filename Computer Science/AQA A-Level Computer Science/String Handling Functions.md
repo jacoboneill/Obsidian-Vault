@@ -345,5 +345,3 @@ Long Double: 3.14159
 Back to String: 3.141593
 */
 ```
-
-## String → Date / Time and Date / Time → String
