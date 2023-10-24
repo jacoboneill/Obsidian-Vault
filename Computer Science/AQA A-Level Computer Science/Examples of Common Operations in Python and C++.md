@@ -15,3 +15,4 @@
 | Concatenation | `std::string concat = string1 + string2` | `concat = string1 + string 2` |
 | Convert Character to Character Code | `int ascii = static_cast<int>(character)` <br> `char character = static_cast<char>(ascii)` | `ascii = ord(char)` <br> `char = chr(ascii)` |
 | Convert String to Integer | `std::string string = std::to_string(n)`<br> `int n = std::stoi(string)` | `string = str(n)` <br> `n = int(string)` |
+| Convert String to Float | `std::string string = std::to_string(f)` <br>`float f = std::stof(string)` | `string = str(f)`<br>`f = float(string)` |
