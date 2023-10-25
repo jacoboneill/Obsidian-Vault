@@ -1,8 +1,3 @@
-#Program 
-- [[./Programs/postage_charge/postage_charge.cpp|postage_charge.cpp]]
-- [[./Programs/postage_charge/postage_charge|postage_charge compiled]]
-# postage_charge.cpp
-```cpp
 /*
   Postage Costs based off of Royal Mail 2023.
 */
@@ -84,4 +79,3 @@ int main(int argc, char* argv[]){
 	std::cout << std::endl;
 	return 0;
 }
-```
