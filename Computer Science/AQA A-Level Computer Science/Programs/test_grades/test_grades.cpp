@@ -1,22 +1,3 @@
-#Program
-- [[./Programs/test_grades/test_grades.csv|test_grades.csv]]
-- [[./programs/test_grades/test_grades.cpp|test_grades.cpp]]
-- [[./programs/test_grades/test_grades|test_grades compiled]]
-# test_grades.csv
-```csv
-Alice,115
-Bob,142
-Charlie,178
-David,123
-Eve,158
-Frank,131
-Grace,104
-Hank,196
-Ivy,121
-Jack,137
-```
-# test_grades.cpp
-```cpp
 #include <fstream>
 #include <iostream>
 #include <map>
@@ -70,4 +51,3 @@ int main(int argc, char* argv[]) {
 			"GRADE: " << current.grade << '\n' << std::endl;
 	}
 }
-```
