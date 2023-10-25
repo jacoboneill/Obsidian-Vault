@@ -1,8 +1,3 @@
-#Program 
-- [[./Programs/substring/substring|substring.cpp]]
-- [[./Programs/substring/substring|substring compiled]]
-# substring
-``
 #include <iostream>
 
 int main(int argc, char* argv[]){
@@ -18,4 +13,3 @@ int main(int argc, char* argv[]){
 }
 
 // OUTPUT: Hello
-```
