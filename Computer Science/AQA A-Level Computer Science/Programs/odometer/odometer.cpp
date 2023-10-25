@@ -1,8 +1,3 @@
-#Program
-- [[./Programs/odometer/odometer.cpp|odometer.cpp]]
-- [[./Programs/odometer/odometer|odometer compiled]]
-# odometer.cpp
-```cpp
 #include <iostream>
 
 class Odometer {
@@ -69,4 +64,3 @@ int main(int argc, char* argv[]){
 	Odometer odometer(current_mileage);	
 	odometer.display();
 }
-```
