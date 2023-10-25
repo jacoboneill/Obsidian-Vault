@@ -1,5 +1,5 @@
 #Program 
-- [[./Programs/arithmetic_operations/arithmetic_operations.|arithmetic_operations.cpp]]
+- [[./Programs/arithmetic_operations/arithmetic_operations.cpp|arithmetic_operations.cpp]]
 - [[./Programs/arithmetic_operations/arithmetic_operations|arithmetic_operations compiled]]
 
 See [[Arithmetic Operations]]
