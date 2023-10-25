@@ -1,10 +1,3 @@
-#Program 
-- [[./Programs/arithmetic_operations/arithmetic_operations.|arithmetic_operations.cpp]]
-- [[./Programs/arithmetic_operations/arithmetic_operations|arithmetic_operations compiled]]
-
-See [[Arithmetic Operations]]
-# arithmetic_operations.
-```
 #include <iostream>
 #include <cmath>
 
@@ -114,4 +107,3 @@ int main(int argc, char* argv[]){
 		Truncate pi = 3
 		Random number between 1 - 2^16 = 1
 */
-```
