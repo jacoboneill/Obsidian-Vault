@@ -1,10 +1,3 @@
-#Program 
-
-# Prompt
-Write code for an app that allows the user to input two numbers then carry out each of the relational operators returning an output of `TRUE` or `FALSE`.
-
-# number_relator.cpp
-```cpp
 #include <iostream>
 #include <vector>
 
@@ -60,4 +53,3 @@ int main(int argc, char* argv[]){
 	
 	return 0;
 }
-```
