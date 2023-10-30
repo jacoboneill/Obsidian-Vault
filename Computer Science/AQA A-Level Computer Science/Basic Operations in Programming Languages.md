@@ -40,7 +40,7 @@
 	- Because they rely on a seed. RANDOM.org uses atmospheric pressures for their seeds however if you know the seed and algorithm, you can regenerate the *pseudo-random* number.
 # Study / Research Tasks
 - Write code for a calculator app that allows the user to enter one or more numbers and then carry out all the main arithmetic operations
-	- [[Calculator]]
+	- [[./Calculator.md|Calculator]]
 - Write code for an app that allows the user to input two numbers then carry out each of the relational operators returning an output of `TRUE` or `FALSE`.
 	- [[Number Relator]]
 - Write code for an app that extracts the vowels from the alphabet
