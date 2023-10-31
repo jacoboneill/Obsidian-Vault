@@ -45,3 +45,5 @@
 	- [[Number Relator]]
 - Write code for an app that extracts the vowels from the alphabet
 	- [[Alphabet to Vowels]]
+- Write code for an app that takes the numbers 1 - 10 and extracts them into odd and even numbers.
+	- [[Odd and Even]]
