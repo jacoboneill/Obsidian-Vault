@@ -47,3 +47,7 @@
 	- [[Alphabet to Vowels]]
 - Write code for an app that takes the numbers 1 - 10 and extracts them into odd and even numbers.
 	- [[Odd and Even]]
+ - Research how Google uses boolean operators to create accurate search results
+	 - Google uses a syntax with `"[search term]"` to get exact finds. This would use the `==` operator to check if true, and then send this to the client.
+ - Is it possible to produce a completely random number
+	 - Computers can never truly produce a random number as it is based on a seed for a pseudo-random number generator function. Even if this number is unpredictable like atmospheric noise or cosmic radiation, if you input the same measurement as the seed, you will get the same output, therefore the number is never truly random, however it is very close.
