@@ -51,7 +51,7 @@ bool isVowel(char character){
 This first part of the code loops through a string using a C++11 *range based loop* to loop through the characters of a string containing all the vowels in the alphabet.
 If the vowel matches the character, it exits the function, and therefore the loop, and returns `true`, else if it is never true it will return `false`.
 
-### int main(int argc, char* argv[])
+### int main(int argc, char* argv\[\])
 ```cpp
 int main(int argc, char* argv[]){
 	std::string alphabet = "abcdefghijklmnopqrstuvwxyz";
