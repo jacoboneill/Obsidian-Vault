@@ -7,4 +7,4 @@ A function will take parameters and return a value typically based off of those 
 - Reduces code by following the [[Clean Code Principles#DRY|DRY]] (Don't Repeat Yourself) principle.
 
 # Functional Programming
-Functional Programming is a method of programming that only uses functions #TODO see: 
+Functional Programming is a method of programming that only uses functions see: ***here (chapters 46 and 47)*** #TODO
