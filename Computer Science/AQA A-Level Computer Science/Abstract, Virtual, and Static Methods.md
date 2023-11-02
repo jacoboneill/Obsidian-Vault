@@ -4,4 +4,4 @@ tags:
   - Computer-Science
   - Note
 ---
-# {{title}}
+# Abstract, Virtual, and Static Methods

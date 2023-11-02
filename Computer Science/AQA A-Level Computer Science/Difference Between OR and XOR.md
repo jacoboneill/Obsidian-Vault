@@ -1,3 +1,9 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Task
+---
 # Difference Between OR and XOR
 
 | Input AB | OR | XOR |

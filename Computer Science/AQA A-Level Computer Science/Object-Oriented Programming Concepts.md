@@ -1,3 +1,9 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Section
+---
 # Specification Coverage
 - 3.1.2.1 Programming Paradigms
 - 3.1.2.3 Object Oriented Programming

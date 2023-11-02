@@ -1,3 +1,9 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+---
 # Code Layout and Comments
 Using the programming languages features can help to make the code more readable. This can include:
 - Commenting on code that might not make sense just looking at it.

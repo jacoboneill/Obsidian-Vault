@@ -4,4 +4,4 @@ tags:
   - Computer-Science
   - Note
 ---
-# {{title}}
+# Design Principles

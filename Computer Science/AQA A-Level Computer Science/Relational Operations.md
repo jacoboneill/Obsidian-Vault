@@ -1,3 +1,9 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+---
 # Relational Operations
 Relational operations work by comparing between two data items. The data items are called the *operands* and the sign is the *operator*.
 Most programming languages use the following operators

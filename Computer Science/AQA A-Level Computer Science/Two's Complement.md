@@ -1,3 +1,9 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+---
 # How it Works
 Two's Complement is a way of storing negative numbers in binary.
 

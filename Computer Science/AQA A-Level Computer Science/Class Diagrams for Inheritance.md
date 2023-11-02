@@ -4,4 +4,4 @@ tags:
   - Computer-Science
   - Note
 ---
-# {{title}}
+# Class Diagrams for Inheritance

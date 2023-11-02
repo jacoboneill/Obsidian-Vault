@@ -1,3 +1,9 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+---
 # Functions
 Functions are subroutines that return a value.
 A function will take parameters and return a value typically based off of those parameters. For example, a calculator will take a number and when the *square root function key* is pressed, it will perform a square root function and return the result to the display.

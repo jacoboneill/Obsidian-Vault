@@ -1,3 +1,9 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+---
 Assignments refer to setting data in addresses. For example:
 ```cpp
 age = 15

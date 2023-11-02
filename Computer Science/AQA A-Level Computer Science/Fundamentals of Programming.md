@@ -1,3 +1,9 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Section
+---
 Sections:
 - [[Programming Basics]]
 - [[Programming Concepts]]

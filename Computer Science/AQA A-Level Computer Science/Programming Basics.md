@@ -1,3 +1,9 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Section
+---
 # Specification Coverage
 - 3.1.1.1 Data Types
 - 3.1.1.2 Programming Concepts

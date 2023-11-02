@@ -1,3 +1,9 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+---
 # Boolean Logic
 Boolean logic is logic in which the results are either `TRUE` or `FALSE`.
 Boolean Logic and by extensions Boolean Algebra is the underlying principle to how digital electronics and computers are made.

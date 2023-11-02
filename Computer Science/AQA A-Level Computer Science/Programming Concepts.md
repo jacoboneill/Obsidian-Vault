@@ -1,3 +1,9 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Section
+---
 # Specification Coverage
 - 3.1.1.2 Programming Concepts
 
@@ -41,4 +47,4 @@
 - Write a program that works out the postage charges for parcels of different weights
 	- [[Weight to Postage Charge]]
 - Write a program that simulates the odometer on a car
-	- [[Odometer]]
+	- [[./Odometer.md|Odometer]]

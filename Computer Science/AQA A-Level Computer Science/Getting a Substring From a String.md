@@ -1,8 +1,12 @@
-#Program 
-- [[./Programs/substring/substring|substring.cpp]]
-- [[./Programs/substring/substring|substring compiled]]
-# substring
-``
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Task
+  - Program
+---
+# substring.cpp
+```cpp
 #include <iostream>
 
 int main(int argc, char* argv[]){

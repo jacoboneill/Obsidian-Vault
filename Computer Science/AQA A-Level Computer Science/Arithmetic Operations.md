@@ -1,3 +1,9 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+---
 # Arithmetic Operations
 ## Addition
 The sum of two or more variables.
