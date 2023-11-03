@@ -3,6 +3,7 @@ tags:
   - AQA-A-Level
   - Computer-Science
   - Note
+page: 34
 ---
 # Local Variable
 A local variable is a variable in the local scope. This means that it is inside a subroutine or function, and is only accessible from it's subroutine or function.

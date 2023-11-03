@@ -3,6 +3,7 @@ tags:
   - AQA-A-Level
   - Computer-Science
   - Note
+page: 38
 ---
 # Flowcharts
 A flowchart uses a set of symbols to show the flow of a program.

@@ -3,6 +3,7 @@ tags:
   - AQA-A-Level
   - Computer-Science
   - Note
+page: 33
 ---
 # Parameters and Arguments
 An *argument* is a piece of data you pass into a [[functions|function]].

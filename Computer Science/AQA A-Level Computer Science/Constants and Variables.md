@@ -3,6 +3,7 @@ tags:
   - AQA-A-Level
   - Computer-Science
   - Note
+page: 12
 ---
 # Constants
 - Constants are used to keep a variable the same throughout the lifetime of a program

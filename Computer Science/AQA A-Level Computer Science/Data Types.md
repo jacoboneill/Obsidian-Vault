@@ -3,6 +3,7 @@ tags:
   - AQA-A-Level
   - Computer-Science
   - Note
+page: 12
 ---
 # Data Type
 A data type determines what sort of data is being stored and how it will be handled by the program.

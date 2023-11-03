@@ -3,6 +3,7 @@ tags:
   - AQA-A-Level
   - Computer-Science
   - Note
+page: 40
 ---
 # Pseudo-Code
 Pseudo-Code is a fake programming language used to not get bogged down in the intricacies of the high level programming languages syntax.

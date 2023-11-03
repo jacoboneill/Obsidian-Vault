@@ -3,6 +3,7 @@ tags:
   - AQA-A-Level
   - Computer-Science
   - Note
+page: 18
 ---
 Assignments refer to setting data in addresses. For example:
 ```cpp

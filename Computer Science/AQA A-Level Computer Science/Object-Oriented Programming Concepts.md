@@ -3,6 +3,7 @@ tags:
   - AQA-A-Level
   - Computer-Science
   - Section
+page: 44
 ---
 # Specification Coverage
 - 3.1.2.1 Programming Paradigms

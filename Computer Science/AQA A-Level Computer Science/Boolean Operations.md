@@ -3,6 +3,7 @@ tags:
   - AQA-A-Level
   - Computer-Science
   - Note
+page: 25
 ---
 # Boolean Logic
 Boolean logic is logic in which the results are either `TRUE` or `FALSE`.

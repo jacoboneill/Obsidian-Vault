@@ -3,6 +3,7 @@ tags:
   - AQA-A-Level
   - Computer-Science
   - Note
+page: 40
 ---
 # Naming Conventions
 Winging names of variables can end up in disaster. Write a list of variables names before writing a program or function. As well as this, you should do the same for function and module names.

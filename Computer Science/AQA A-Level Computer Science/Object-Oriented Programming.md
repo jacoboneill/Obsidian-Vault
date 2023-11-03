@@ -3,6 +3,7 @@ tags:
   - AQA-A-Level
   - Computer-Science
   - Note
+page: 44
 ---
 # Object-Oriented Programming
 Object oriented programming, unlike procedural programming, is modelled based on real-world relationships.

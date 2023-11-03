@@ -3,6 +3,7 @@ tags:
   - AQA-A-Level
   - Computer-Science
   - Note
+page: 28
 ---
 # Examples of Common Operations in Python and C++
 | Operation or Function |  C++ Example  | Python Example |

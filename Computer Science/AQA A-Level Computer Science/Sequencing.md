@@ -3,6 +3,7 @@ tags:
   - AQA-A-Level
   - Computer-Science
   - Note
+page: 17
 ---
 # Sequencing
 Sequencing refers to the order a computer will execute commands. This is important because if a computer doesn't do this it will give results we weren't expecting.
