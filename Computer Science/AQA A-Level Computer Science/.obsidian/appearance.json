@@ -2,6 +2,7 @@
   "accentColor": "",
   "cssTheme": "Tokyo Night",
   "enabledCssSnippets": [
-    "mermaid"
+    "mermaid",
+    "callouts"
   ]
 }
