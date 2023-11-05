@@ -40,6 +40,20 @@ int main(int argc, char* argv[]){
     {"#FFFFFF", "#777777", "#000000"}
 	};
 
-  std::cout << ANSIIString(hex_bitmap) << std::endl;
+
+  vector<vector<string> > mushroom = {
+    {"#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#000000", "#000000", "#000000", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF"},
+    {"#FFFFFF", "#FFFFFF", "#000000", "#000000", "#38C172", "#38C172", "#38C172", "#000000", "#000000", "#FFFFFF", "#FFFFFF"},
+    {"#FFFFFF", "#000000", "#38C172", "#38C172", "#38C172", "#FFFFFF", "#FFFFFF", "#38C172", "#38C172", "#000000", "#FFFFFF"},
+    {"#FFFFFF", "#000000", "#FFFFFF", "#38C172", "#38C172", "#FFFFFF", "#FFFFFF", "#38C172", "#38C172", "#000000", "#FFFFFF"},
+    {"#000000", "#FFFFFF", "#38C172", "#38C172", "#38C172", "#38C172", "#38C172", "#38C172", "#38C172", "#FFFFFF", "#000000"},
+    {"#000000", "#38C172", "#38C172", "#000000", "#000000", "#000000", "#000000", "#000000", "#38C172", "#FFFFFF", "#000000"},
+    {"#000000", "#38C172", "#000000", "#FFFFFF", "#000000", "#FFFFFF", "#000000", "#FFFFFF", "#000000", "#38C172", "#000000"},
+    {"#FFFFFF", "#000000", "#000000", "#FFFFFF", "#000000", "#FFFFFF", "#000000", "#FFFFFF", "#000000", "#000000", "#FFFFFF"},
+    {"#FFFFFF", "#FFFFFF", "#000000", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#000000", "#FFFFFF", "#FFFFFF"},
+    {"#FFFFFF", "#FFFFFF", "#FFFFFF", "#000000", "#000000", "#000000", "#000000", "#000000", "#FFFFFF", "#FFFFFF", "#FFFFFF"}
+
+  };
+  std::cout << ANSIIString(mushroom) << std::endl;
 
 }
