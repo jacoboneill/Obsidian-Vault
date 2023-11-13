@@ -1,0 +1,9 @@
+{
+  "types": {
+    "tags": "tags",
+    "page": "number",
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "episode": "number"
+  }
+}
