@@ -25,7 +25,7 @@ int main(){
 ```
 
 # Virtual Methods
-A virtual method is a method in which the method is defined in the base class, but is assumed to be [[Polymorphism and Overriding|overridden]] in the subclass. This is especially useful when using pointers to objects:
+A virtual method is a method in which the method is defined in the base class, but is assumed to be [[Polymorphism and Overriding|overridden]] in the subclass. This is especially useful when using [[pointers]] to objects:
 ```cpp
 # include <iostream>
 
