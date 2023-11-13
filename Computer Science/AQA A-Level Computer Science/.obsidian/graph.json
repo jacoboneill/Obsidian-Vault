@@ -1,11 +1,17 @@
 {
-  "collapse-filter": true,
-  "search": "",
+  "collapse-filter": false,
+  "search": "-path:Templates  ",
   "showTags": false,
   "showAttachments": false,
+<<<<<<< HEAD
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": true,
+=======
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+>>>>>>> cb6df00f750b0b8fcc9c7915b70a020d74a0ffc3
   "colorGroups": [
     {
       "query": "tag:#Program  ",
@@ -15,6 +21,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "query": "tag:#Task",
       "color": {
         "a": 1,
@@ -23,16 +30,33 @@
     },
     {
       "query": "tag:#Note",
+=======
+      "query": "tag:#Task  ",
+>>>>>>> cb6df00f750b0b8fcc9c7915b70a020d74a0ffc3
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
+<<<<<<< HEAD
       "query": "tag:#Section",
       "color": {
         "a": 1,
         "rgb": 5431378
+=======
+      "query": "tag:#Note  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "tag:#Section  ",
+      "color": {
+        "a": 1,
+        "rgb": 5401056
+>>>>>>> cb6df00f750b0b8fcc9c7915b70a020d74a0ffc3
       }
     }
   ],
