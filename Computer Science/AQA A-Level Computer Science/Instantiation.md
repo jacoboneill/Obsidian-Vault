@@ -9,6 +9,44 @@ page: 50
 > [!definition]
 > The process of creating an object from a class
 
+This can be done either on the [[Stack v.s. Heap Memory in C++#Stack|stack]] or the [[Stack v.s. Heap Memory in C++#Heap|heap]] by doing the following:
+## Stack 
+```cpp
+#include <iostream>
+
+class Lion{
+	public:
+		void roar(){
+			std::cout << "Roar!" << std::endl;
+		}
+};
+
+int main(){
+	Lion mufasa;
+	mufasa.roar();
+}
+
+// OUTPUT: Roar!
+```
+
+## Heap
+```cpp
+#include <iostream>
+
+class Lion{
+	public:
+		void roar(){
+			std::cout << "Roar!" << std::endl;
+		}
+};
+
+int main(){
+	Lion* mufasa = new Lion();
+	mufasa->roar();
+	delete mufasa;
+}
+```
+
 ## Constructor
 >[!definition]
 >A Constructor is a method in a class that is called when a class is instantiated
