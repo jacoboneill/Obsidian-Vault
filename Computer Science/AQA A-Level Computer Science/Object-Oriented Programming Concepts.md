@@ -66,7 +66,7 @@ page: 44
 	- [[Design Principles#Favour Composition Over Inheritance|Favour Composition Over Inheritance]]
 	- [[Design Principles#Program to Interfaces, Not Implementation|Program to Interfaces, Not Implementation]]
 # Study / Research Tasks
-- For your real-life example above, use an OOP programming language to implement a solution. Include the following features:
+- For your real-life example above, use an OOP language to implement a solution. Include the following features:
 	- Objects created using Abstract, Virtual, and Static methods
 	- Inheritance
 	- Aggregation
