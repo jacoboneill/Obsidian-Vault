@@ -123,6 +123,73 @@ class Car : public Vehicle{
     bool m_roof_down = false;
 };
 
+class Cargo{
+  public:
+    Cargo(string item, float weight) : m_item(item), m_weight(weight) {}
+    
+    string getItem(){
+      return m_item;
+    }
+
+    float getWeight(){
+      return m_weight;
+    }
+
+    static bool equal(Cargo a, Cargo b){
+      bool same = true;
+      if(a.getItem() != b.getItem()){
+        same = false;
+      }
+
+      if(a.getWeight() != b.getWeight()){
+        same = false;
+      }
+
+      return same;
+    }
+
+  private:
+    string m_item;
+    float m_weight;
+};
+
+class Lorry : public Vehicle{
+  
+  public:
+    Lorry(string registration_number, int max_gear, int load_capacity, string keyhole=Key::generateKeyhole()) :
+      Vehicle(registration_number, max_gear, keyhole),
+      m_load_capacity(load_capacity)
+    {}
+
+    void addCargo(Cargo cargo){
+      m_cargo.push_back(cargo);
+    }
+
+    void removeCargo(Cargo cargo){
+      for(int i = 0; i < m_cargo.size(); i++){
+        if(Cargo::equal(m_cargo[i], cargo)){
+          m_cargo.erase(m_cargo.begin() + i);
+        } else {
+          std::cerr << "Cargo not in hold" << std::endl;
+        }
+      }
+    }
+
+    string listCargo(){
+      string list = "Cargo: \n";
+      
+      for(int i = 0; i < m_cargo.size(); i++){
+        list += m_cargo[i].getItem() + ", " + std::to_string(m_cargo[i].getWeight()) + "KG\n";
+      }
+
+      return list;
+    }
+
+  private:
+    int m_load_capacity;
+    vector<Cargo> m_cargo;
+};
+
 int main(){
 }
 
