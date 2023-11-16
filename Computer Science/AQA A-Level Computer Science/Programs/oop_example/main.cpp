@@ -194,6 +194,25 @@ class Lorry : public Vehicle{
     vector<Cargo> m_cargo;
 };
 
+class Motorbike : public Vehicle{
+  public:
+    Motorbike(string registration_number, int max_gear, int engine_size, string keyhole=Key::generateKeyhole()) :
+      Vehicle(registration_number, max_gear, keyhole),
+      m_engine_size(engine_size)
+    {}
+
+    int getEngineSize(){
+      return m_engine_size;
+    }
+
+    void wheely(){
+      std::cout << "Whee!" << std::endl;
+    }
+
+  private:
+    int m_engine_size;  
+};
+
 int main(){
 }
 
