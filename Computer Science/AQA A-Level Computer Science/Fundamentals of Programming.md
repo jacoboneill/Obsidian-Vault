@@ -31,3 +31,17 @@ End Type
 
 3. Some computer languages support *'"user-defined types"*. Explain this term and give an example of a user-defined variable in this code.
 	- A user-defined type is a variable that stores custom data that isn't built into the programming language. For example, in the code, you have a type called `RecordDetails` that has custom data of `RecordType`, `RecordCurrent`, and `RecordRestock` which can be accessed when a variable is instantiated with it using dot syntax For example `RecordDetails record; cout << record.RecordCurrent << endl;`
+
+## Question 2
+A program has been written to analyse the results of a survey. For each of the following, name a suitable data type and give a reason for your choice.
+1. The number of pets owned by a household
+	- `uint`, as the number of pets owned will always be a whole number and never be negative.
+
+2. A telephone number such as *0122453322*
+	- `string`, as the phone number can have a leading 0, therefore it can't be stored as a number.
+
+3. Whether a household's accommodation has central heating
+	- `bool`, as the house either does (`true`) or does not (`false`) have central heating. The variable is binary.
+
+4. The average number of children within a household
+	- `float` or `double`, as the average may need a decimal part. The decision for a `float` or `double` depends on memory restraints and accuracy as a `double` takes 8 bytes while a `float` only uses 4 bytes.
