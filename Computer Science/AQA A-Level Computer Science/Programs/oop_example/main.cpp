@@ -7,8 +7,8 @@ using std::vector;
 class Key{
   public:
     Key(string uuid){
-      for(char c : uuid){
-          m_key += -c;
+      for(int i = 0; i < uuid.size(); i++){
+          m_key += -uuid[i];
       }
     }
 
@@ -33,7 +33,10 @@ class Vehicle{
       m_registration_number(registration_number),
       m_max_gear(max_gear),
       m_saved_key(Key()),
-      m_keyhole(keyhole)
+      m_keyhole(keyhole),
+      m_current_gear(0),
+      m_accelerating(false),
+      m_locked(true)
     {}
 
     int getGear(){
@@ -95,19 +98,20 @@ class Vehicle{
 
   private:
     string m_registration_number;
-    int m_current_gear = 0;
+    int m_current_gear;
     int m_max_gear;
     Key m_saved_key;
-    bool m_accelerating = false;
+    bool m_accelerating;
     string m_keyhole;
-    bool m_locked = true;
+    bool m_locked;
 };
 
 class Car : public Vehicle{
   public:
     Car(string registration_number, int max_gear, bool convertible, string keyhole=Key::generateKeyhole()) :
       Vehicle(registration_number, max_gear, keyhole),
-      m_convertible(convertible)
+      m_convertible(convertible),
+      m_roof_down(false)
     {}
 
     void toggleRoof(){
@@ -120,7 +124,7 @@ class Car : public Vehicle{
 
   private:
     bool m_convertible;
-    bool m_roof_down = false;
+    bool m_roof_down;
 };
 
 class Cargo{
