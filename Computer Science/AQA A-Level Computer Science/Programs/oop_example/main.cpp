@@ -103,6 +103,26 @@ class Vehicle{
     bool m_locked = true;
 };
 
+class Car : public Vehicle{
+  public:
+    Car(string registration_number, int max_gear, bool convertible, string keyhole=Key::generateKeyhole()) :
+      Vehicle(registration_number, max_gear, keyhole),
+      m_convertible(convertible)
+    {}
+
+    void toggleRoof(){
+      if(m_convertible){
+        std::cout << (m_roof_down ? "Roof Down" : "Roof Up") << std::endl;
+      } else {
+        std::cerr << "Roof not convertible" << std::endl;
+      }
+    }
+
+  private:
+    bool m_convertible;
+    bool m_roof_down = false;
+};
+
 int main(){
 }
 
