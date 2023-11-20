@@ -92,7 +92,7 @@ class Vehicle{
       !m_locked;
     }
 
-    void toggleLoc(){
+    void toggleLock(){
       toggleLock(m_saved_key);
     }
 
@@ -213,6 +213,54 @@ class Motorbike : public Vehicle{
     int m_engine_size;  
 };
 
+class Garage{
+  public:
+    void addVehicle(Vehicle vehicle){
+      m_vehicles.push_back(vehicle);
+    }
+
+    void removeVehicle(Vehicle vehicle){
+      for(int i = 0; i < m_vehicles.size(); i++){
+        if(m_vehicles[i].getRegistrationNumber() == vehicle.getRegistrationNumber()){
+          m_vehicles.erase(m_vehicles.begin() + i);
+        }
+      }
+    }
+
+    string listVehicles(){
+      string list = "Vehicles:\n";
+      for (int i = 0; i < m_vehicles.size(); i++) {
+        list += std::to_string(i + 1) + ". " + m_vehicles[i].getRegistrationNumber() + "\n";
+      }
+      return list;
+    }
+
+  private:
+    vector<Vehicle> m_vehicles;
+};
+
 int main(){
+  Garage garage;
+
+  Car daily_car("AB01CDE", 5, false);
+
+  Key key("Hello World");
+  Car sports_car("FG23HIJ", 6, true);
+
+  Lorry hgv("KL45MNO", 6, 1200);
+  Cargo parcel("Parcel", 50);
+  hgv.addCargo(parcel);
+  std::cout << hgv.listCargo() << std::endl;
+
+  Motorbike bike("PQ67RST", 4, 350);
+
+  garage.addVehicle(daily_car);
+  garage.addVehicle(sports_car);
+  garage.addVehicle(hgv);
+  garage.addVehicle(bike);
+
+  std::cout << "\n\n\n" << garage.listVehicles() << std::endl;
+
+  return 0;
 }
 
