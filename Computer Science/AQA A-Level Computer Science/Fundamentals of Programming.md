@@ -61,3 +61,52 @@ It is considered poor design to define an Age field when storing personal detail
 ## Question 4
 What values can a boolean expression take?
 - `true` or `false`.
+
+## Question 5
+The following section of pseudo-code is used to add and remove data in a queue. ‘routine to add to a circular queue  
+```
+// Routine to add to a circular queue
+
+// Increment rear pointer
+Rear = Rear + 1
+
+// Check to see if the end of the array has been reached, if so go back to the
+// start of the array
+If Rear = 9 Then Rear = 0
+
+// Add data
+Put DataItem at position Rear in array
+
+// Routine to remove data from circular queue
+// Remove data
+Take DataItem from position Front in array
+
+// Move front on
+Front = Front + 1
+
+// Check to see if the end of the array has been reached, if so go back to the
+// start of the array
+If Front = 9 Then Front = 0
+```
+
+1. State a line of code that has a comment in it
+	- Line 1
+
+2. State a line of code that is an assignment statement
+	- Line 4
+
+3. State a conditional statement that has been used
+	- `if` statement
+
+4. An array contains the characters E, C and F, with the front pointer on E (at index 0 in the array) and the rear pointer on F (at index 2 in the array). Dry run the code above, showing what would happen if the characters A, D and G were added to the queue.
+
+| State         | Front | Rear | Array              |
+|---------------|-------|------|--------------------|
+| Initial State | 0     | 2    | [E, C, F]          |
+| Add 'A'       | 1     | 3    | [E, C, F, A]       |
+| Add 'D'       | 2     | 4    | [E, C, F, A, D]    |
+| Add 'G'       | 3     | 5    | [E, C, F, A, D, G] |
+| Final State   | 3     | 5    | [E, C, F, A, D, G] |
+
+5. Why is it a good idea to write programs in modules
+	- To allow for multiple developers to work on the same project, and to make the functionality independent of the overall program. This also allows for reusability of the code as well as organisation.
