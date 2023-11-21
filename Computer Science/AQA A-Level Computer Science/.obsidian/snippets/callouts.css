@@ -1,0 +1,4 @@
+.callout[data-callout="definition"] {
+  --callout-color: 233, 151, 63;
+  --callout-icon: lucide-book-marked;
+}

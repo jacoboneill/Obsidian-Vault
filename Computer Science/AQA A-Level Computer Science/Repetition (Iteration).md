@@ -1,3 +1,10 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+page: 19
+---
 # Iteration
 Code that is iterative means code that loops. This is typically denoted by a loop start and end, with a condition to stop the loop.
 

@@ -1,6 +1,11 @@
-#Program 
-
-# odd_even
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Task
+  - Program
+---
+# odd_even.cpp
 ```cpp
 #include <iostream>
 

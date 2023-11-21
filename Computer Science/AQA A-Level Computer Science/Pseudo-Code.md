@@ -1,3 +1,10 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+page: 40
+---
 # Pseudo-Code
 Pseudo-Code is a fake programming language used to not get bogged down in the intricacies of the high level programming languages syntax.
 The only rule to pseudo-code is consistency. Don't use *"Save to File"* and then *"Write to File"* as this will confuse whoever is reading it.

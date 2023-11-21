@@ -1,3 +1,10 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+page: 18
+---
 # Selection
 Selection refers to the comparison of values.
 

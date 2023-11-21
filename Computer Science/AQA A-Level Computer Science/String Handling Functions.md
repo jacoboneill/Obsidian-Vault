@@ -1,3 +1,10 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+page: 26
+---
 # String Handling Functions
 A string is a sequence of characters. There will be many times you will need to manipulate strings to get a desired output. For example:
 - Searching for strings of characters

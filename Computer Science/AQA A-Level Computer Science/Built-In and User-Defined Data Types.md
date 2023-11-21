@@ -1,3 +1,10 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+page: 15
+---
 # Built-In Types
 Built-in types are types which a programming language has made (see [[Data Types]]).
 

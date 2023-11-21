@@ -1,10 +1,13 @@
-#Program 
-- [[./Programs/arithmetic_operations/arithmetic_operations.cpp|arithmetic_operations.cpp]]
-- [[./Programs/arithmetic_operations/arithmetic_operations|arithmetic_operations compiled]]
-
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Task
+  - Program
+---
 See [[Arithmetic Operations]]
-# arithmetic_operations.
-```
+# arithmetic_operations.cpp
+```cpp
 #include <iostream>
 #include <cmath>
 

@@ -1,7 +1,10 @@
-#Program
-- [[./Programs/test_grades/test_grades.csv|test_grades.csv]]
-- [[./programs/test_grades/test_grades.cpp|test_grades.cpp]]
-- [[./programs/test_grades/test_grades|test_grades compiled]]
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Task
+  - Program
+---
 # test_grades.csv
 ```csv
 Alice,115

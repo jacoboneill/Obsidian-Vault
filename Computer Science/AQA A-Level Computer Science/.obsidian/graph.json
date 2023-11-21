@@ -4,6 +4,7 @@
   "showTags": false,
   "showAttachments": false,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": true,
@@ -12,6 +13,11 @@
   "showOrphans": true,
   "collapse-color-groups": false,
 >>>>>>> cb6df00f750b0b8fcc9c7915b70a020d74a0ffc3
+=======
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+>>>>>>> section/object-oriented-programming-concepts
   "colorGroups": [
     {
       "query": "tag:#Program  ",
@@ -22,6 +28,9 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> section/object-oriented-programming-concepts
       "query": "tag:#Task",
       "color": {
         "a": 1,
@@ -30,9 +39,12 @@
     },
     {
       "query": "tag:#Note",
+<<<<<<< HEAD
 =======
       "query": "tag:#Task  ",
 >>>>>>> cb6df00f750b0b8fcc9c7915b70a020d74a0ffc3
+=======
+>>>>>>> section/object-oriented-programming-concepts
       "color": {
         "a": 1,
         "rgb": 14725458
@@ -40,10 +52,14 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> section/object-oriented-programming-concepts
       "query": "tag:#Section",
       "color": {
         "a": 1,
         "rgb": 5431378
+<<<<<<< HEAD
 =======
       "query": "tag:#Note  ",
       "color": {
@@ -57,6 +73,8 @@
         "a": 1,
         "rgb": 5401056
 >>>>>>> cb6df00f750b0b8fcc9c7915b70a020d74a0ffc3
+=======
+>>>>>>> section/object-oriented-programming-concepts
       }
     }
   ],
@@ -70,6 +88,10 @@
   "repelStrength": 8.74430338541667,
   "linkStrength": 0.766398111979167,
   "linkDistance": 130,
+<<<<<<< HEAD
   "scale": 0.7986151926866221,
+=======
+  "scale": 2.3183918742933254,
+>>>>>>> section/object-oriented-programming-concepts
   "close": true
 }

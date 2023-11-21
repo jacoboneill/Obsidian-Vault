@@ -1,9 +1,15 @@
 {
   "types": {
     "tags": "tags",
+<<<<<<< HEAD
     "page": "number",
     "aliases": "aliases",
     "cssclasses": "multitext",
     "episode": "number"
   }
 }
+=======
+    "page": "number"
+  }
+}
+>>>>>>> section/object-oriented-programming-concepts

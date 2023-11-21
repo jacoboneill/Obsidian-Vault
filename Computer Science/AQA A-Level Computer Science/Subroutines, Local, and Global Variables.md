@@ -1,3 +1,10 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Section
+page: 31
+---
 # Specification Coverage
 - 3.1.1.9 Exception handling
 - 3.1.1.10 Subroutines (procedures / functions)
@@ -21,10 +28,9 @@
 - [[Exception Handling]]
 
 # Tasks
-- Define the following terms and explain the differences between the two.
-	- subroutine.
-	- function.
-		- A subroutine is a piece of code that can be called via its UID and doesn't return a value. A function is a subroutine that can take parameters and returns a value.
+- Define and explain the differences between a subroutine and a function
+	- A subroutine is a piece of code that can be called via its UID and doesn't return a value.
+	- A function is a subroutine that can take parameters and returns a value.
 - Give examples of in-built functions you might find in a programming language.
 	- `std::stoi`, `std::cout`, `vector.push_back([type])`
 - Why is it good practice to construct programs using subroutines.
@@ -32,9 +38,9 @@
 - What is the advantage of using functions.
 	- Code readability, allows for complex code to not be in the middle of your main function and confuse the developer.
 - Define the following terms and explain the difference between the two.
-	- algorithm.
+	- Algorithm.
 		- An algorithm is a piece of code that takes an input and gives an output. An algorithm would typically be found in a function.
-	- program.
+	- Program.
 		- A program is the whole code, functions and subroutines working together.
 - What is a module and how does it differ from a subroutine.
 	- A module is a group of subroutines, a subroutine is a piece of callable code that will run some code.
@@ -59,5 +65,5 @@
 	- [[Square and Square Root Advanced]]
 - Write a program that takes in a set of numbers and then calculates the mean, median and range using either in-built or user-defined functions
 	- [[Mean, Median, Range]]
- - Find examples of typical events that would require exception handling code
+- Find examples of typical events that would require exception handling code
 	 - Divide by zero error, HTTP 400 code from an API.

@@ -1,3 +1,10 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+page: 12
+---
 # Storing Data
 - Data is stored in memory addresses
 

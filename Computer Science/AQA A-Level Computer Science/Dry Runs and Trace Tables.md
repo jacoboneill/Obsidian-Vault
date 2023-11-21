@@ -1,3 +1,10 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+page: 42
+---
 # Dry Runs and Trace Tables
 Dry runs and trace tables are used in algorithm implementation to make sure the logic works. This is done by keeping track of the variables and making sure they do as they are meant to.
 

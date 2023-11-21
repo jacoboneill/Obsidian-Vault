@@ -1,3 +1,10 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Note
+page: 35
+---
 In this situation that a part of the code gets an error (i.e. a divide by zero error in a divide function), an error will be *thrown*.
 The typical procedure of how exception handling works is:
 - An error is thrown so the current subroutine stops

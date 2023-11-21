@@ -1,3 +1,9 @@
+---
+tags:
+  - AQA-A-Level
+  - Computer-Science
+  - Task
+---
 # Logical
 ```prolog
 % Logical (declarative) approach
