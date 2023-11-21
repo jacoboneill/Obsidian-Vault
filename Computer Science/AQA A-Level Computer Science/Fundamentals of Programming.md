@@ -57,3 +57,7 @@ A program has been written to analyse the results of a survey. For each of the f
 ## Question 3
 It is considered poor design to define an Age field when storing personal details. Describe a better way of storing this data.
 - You would be better of creating a `Date date_of_birth` field and using a method to calculate the age (`Date age = date_of_birth.getYear() - current.getYear()`). This would reduce the amount of information needing to be provided by the user and will be more useful to the developer.
+
+## Question 4
+What values can a boolean expression take?
+- `true` or `false`.
