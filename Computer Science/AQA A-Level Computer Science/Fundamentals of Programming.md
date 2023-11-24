@@ -241,3 +241,19 @@ Next
 
 4. What is the algorithm doing
 	- The algorithm is sorting a list of strings called `NameStore` from the shortest character count to the largest.
+
+## Question 9
+Explain the difference between local and global variables
+- A local variable is a variable that can only be accessed within the scope it wants to be manipulated in. A global variable is a variable that can be accessed from anywhere within the program. e.g.
+```cpp
+int OFFSET = 10; // This is a global variable
+
+int add(int a){
+	int x = a // x is a local variable to add() and can't be accessed within main
+	return x + OFFSET
+}
+
+int main{
+	add(12); // Return 22
+}
+```
