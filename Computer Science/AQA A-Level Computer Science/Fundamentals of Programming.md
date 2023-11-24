@@ -257,3 +257,39 @@ int main{
 	add(12); // Return 22
 }
 ```
+
+## Question 10
+An object-oriented programming language will be used to create a system related to animals
+1. Suggest suitable properties and methods for a base class
+	- gender, name, makeNoise()
+
+2. Suggest two further subclasses that could be built from the base class
+	- Cat and Dog
+
+3. Explain the difference between an object and a class
+	- An object is an instance of a class, a class builds objects.
+
+4. Draw a class diagram to show your answers for 10.1 and 10.2
+```mermaid
+classDiagram
+	Animal <|-- Cat
+	Animal <|-- Dog
+
+	class Animal{
+		-string m_gender
+		-string m_name
+		+string makeNoise()
+		+string getName()
+		+string getGender()
+	}
+```
+
+5. Give one example of inheritance in this example
+	- All properties and methods from the Animal are given to the Cat and Dog classes.
+
+6. Explain how an object can be instantiated
+	- In C++, you can do the following: `Animal animal;`
+	- If you have a constructor then you do the following: `Dog daisy("Female", "Daisy")`
+
+7. Give one example of where toy may need to use overriding
+	- The `makeNoise()` method will need to be overridden to make the correct sound for the animal. This can be done either abstractly or virtually.
