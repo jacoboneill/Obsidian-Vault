@@ -216,3 +216,28 @@ Explain what techniques programmers can use to assist with the design of a piece
 - Use [[Flowcharts]], [[Class Diagrams for Inheritance|Class Diagrams]], [[Pseudo-Code]], and [[Dry Runs and Trace Tables]]
 - Follow design principles such as [[Design Principles#Encapsulate What Varies|Encapsulate What Varies]], [[Design Principles#Favour Composition Over Inheritance|Favouring Composition Over Inheritance]] , and [[Design Principles#Program to Interfaces, Not Implementation|Program to Interface, Not Implementation]].
 - Follow clean code principles such as [[Clean Code Principles#DRY|Don't Repeat Yourself]], [[Clean Code Principles#KISS|Keep It Simple Stupid]], and [[Clean Code Principles#YAGNI|You Aren't Gonna Need It]]
+
+## Question 8
+Look at the following section of code and answer the following questions
+```
+For Loop1 = 1 To NameCount - 1
+	For Loop2 = 1 To NameCount - 1
+		If NameStore(Loop2) > NameStore(Loop2 + 1) Then
+			TempStore = NameStore(Loop2)
+			NameStore(Loop2) = NameStore(Loop2 + 1)
+			NameStore(Loop2 + 1) = TempStore
+		EndIf
+	Next
+Next
+```
+1. What two different data types are being used
+	- An Integer for `Loopx`'s index, and an array of strings (I assume) for the `NameStore`.
+
+2. What is the purpose of the first line of code?
+	- The first line of code initialises `Loop1`'s `for` loop
+
+3. What is the purpose of the second line of code?
+	- The second line of code initialises `Loop2`'s `for` loop
+
+4. What is the algorithm doing
+	- The algorithm is sorting a list of strings called `NameStore` from the shortest character count to the largest.
