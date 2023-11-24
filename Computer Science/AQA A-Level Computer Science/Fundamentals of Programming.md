@@ -210,3 +210,9 @@ int main(){
 //	 Front: 0
 //	 Rear: 5
 ```
+
+## Question 7
+Explain what techniques programmers can use to assist with the design of a piece of software and how they can make their program code easy to follow
+- Use [[Flowcharts]], [[Class Diagrams for Inheritance|Class Diagrams]], [[Pseudo-Code]], and [[Dry Runs and Trace Tables]]
+- Follow design principles such as [[Design Principles#Encapsulate What Varies|Encapsulate What Varies]], [[Design Principles#Favour Composition Over Inheritance|Favouring Composition Over Inheritance]] , and [[Design Principles#Program to Interfaces, Not Implementation|Program to Interface, Not Implementation]].
+- Follow clean code principles such as [[Clean Code Principles#DRY|Don't Repeat Yourself]], [[Clean Code Principles#KISS|Keep It Simple Stupid]], and [[Clean Code Principles#YAGNI|You Aren't Gonna Need It]]
