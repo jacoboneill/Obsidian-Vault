@@ -1,3 +1,6 @@
 [submodule "Computer Science/AQA A-Level Computer Science/Textbook"]
 	path = Computer Science/AQA A-Level Computer Science/Textbook
 	url = git@github.com:jacoboneill/Textbooks.git
+[submodule "textbooks"]
+	path = textbooks
+	url = https://github.com/jacoboneill/textbooks
