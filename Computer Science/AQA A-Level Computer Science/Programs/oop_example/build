@@ -1,5 +1,0 @@
-#!/bin/zsh
-
-clear;
-g++ -w -o main ./main.cpp &&
-./main;

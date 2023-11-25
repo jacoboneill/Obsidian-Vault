@@ -1,7 +1,0 @@
-#!/bin/bash
-
-clear;
-g++ -w -o main ./main.cpp &&
-./main;
-
-

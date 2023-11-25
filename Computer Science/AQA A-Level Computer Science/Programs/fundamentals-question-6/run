@@ -1,6 +1,0 @@
-#!/bin/bash
-
-clear;
-g++ -o temp ./main.cpp &&
-./temp &&
-rm ./temp;
