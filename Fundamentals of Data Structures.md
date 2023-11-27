@@ -2,7 +2,7 @@
 tags:
   - AQA-A-Level
   - Computer-Science
-  - Section
+  - Chapter
 page: 58
 ---
 # Sections
