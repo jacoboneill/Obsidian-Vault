@@ -5,16 +5,7 @@ tags:
   - Section
 page:
 ---
-# Specification Coverage
-- 
-
-# Learning Objectives
-- 
-
 # Sections
 - 
 
-# Tasks
-- 
-# Study / Research Tasks
-- 
+# Practice Questions

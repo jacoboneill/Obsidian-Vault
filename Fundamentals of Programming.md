@@ -5,7 +5,7 @@ tags:
   - Section
 page: 10
 ---
-Sections:
+# Sections
 - [[Programming Basics]]
 - [[Programming Concepts]]
 - [[Basic Operations in Programming Languages]]
