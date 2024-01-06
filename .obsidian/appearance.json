@@ -4,5 +4,6 @@
   "enabledCssSnippets": [
     "mermaid",
     "callouts"
-  ]
+  ],
+  "theme": "obsidian"
 }
