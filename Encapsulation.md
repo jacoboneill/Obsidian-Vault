@@ -93,3 +93,20 @@ int main(int argc, char* argv[]){
 
 // OUTPUT: John Smith's Account Number: 0123456789
 ```
+
+In Python, we can do the following:
+```python
+class Account:
+	def __init__(self, account_number, current_balance, interest_rate):
+		self.account_number = account_number
+		self.current_balance = current_balance
+		self.interest_rate = interest_rate
+
+	def addInterestRate(self):
+		self.current_balance *= 1 + self.interest_rate
+
+john_smith = Account("0123456789", 123.45, 3.14)
+print(f"John Smith's Account Number: {john_smith.account_number}")
+
+# OUTPUT: John Smith's Account Number: 0123456789
+```
