@@ -50,6 +50,14 @@ int main(int argc, char* argv[]){
 `string1`'s length is calculated by taking the memory size of the entire array and dividing it by the memory size of the first character.
 `string2` has an abstracted method `std::string::size` that gives the same result.
 
+In Python, you can do the following:
+```python
+x = "Hello World"
+print(len(x))
+
+# OUTPUT: 11
+```
+
 ## Position
 You can find the starting position of a character or string within a string. This can be useful if you need to remove data from the string, or extract data from a string.
 
@@ -178,6 +186,16 @@ int main(int argc, char* argv[]){
 // OUTPUT: True False 6
 ```
 
+In Python, you can do the following:
+```python
+string = "The quick brown fox jumped over the lazy dog"
+target = "brown"
+
+print(string.find(target))
+
+# OUTPUT: 10
+```
+
 ## Substring
 A substring is a string inside a string. Programming languages typically let you select a substring with the start index and length.
 For example the substring *"Hello"* in *"Hello World"* would be from index `0` and have a length of `5`.
@@ -229,6 +247,15 @@ int main(int argc, char* argv[]){
 // OUTPUT: Original: Hello World | Substring: Hello
 ```
 
+In Python, a substring can be made by using the *start* and *end* indices
+```python
+string = "The quick brown fox jumped over the lazy dog"
+substring = string[4:9]
+
+print(substring)
+
+# OUTPUT: quick
+```
 ## Concatenation
 Concatenation is the process of appending one string to another.
 
@@ -273,6 +300,16 @@ int main(int argc, char* argv[]){
 }
 ```
 
+In Python, you can do the following:
+```python
+string1 = "Hello"
+string2 = " World"
+
+concat1 = string1 + string2
+print(concat)
+
+# OUTPUT: Hello World
+```
 ## Character Codes
 All characters use either Unicode or ASCII. These encodings are used so computers can translate the binary data into characters on a screen.
 ASCII is a subset of the Unicode encoding. ASCII contains mainly only latin characters, while Unicode includes accented letters, Cyrillic, Greek, Arabic, Hebrew, Chinese, and Japanese characters, as well as emojis.
@@ -320,6 +357,20 @@ int -> std::string 3
 
 > Integer to classic C style arrays `char[]` are really difficult due to memory allocation.
 
+In Python you can do the following, with type checking:
+```python
+string = "123"
+
+if string.isdigit():
+	number = int(string)
+else:
+	number = -1
+
+print(number)
+
+# OUTPUT 123
+```
+
 ## String → Double and Double → String
 C++ handles string to double conversions and vice versa using the `std::string` library with use of the `std::stod()` method for `std::string` → `double`, and `std::to_string()` for `double` → `std::string`.
 ```cpp
@@ -351,4 +402,19 @@ Float: 3.14159
 Long Double: 3.14159
 Back to String: 3.141593
 */
+```
+
+In Python you can do the following:
+```python
+string = "3.141"
+
+# Remove decimal and check if digit
+if string.replace(".", "").isdigit():
+	number = float(string)
+else:
+	number = -1
+
+print(number)
+
+# OUTPUT: 3.141
 ```
