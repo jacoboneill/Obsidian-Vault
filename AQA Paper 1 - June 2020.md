@@ -101,4 +101,7 @@ Can not complete without Skeleton Program
 ## Section D
 Can not be completed without Skeleton Program
 
-
+# Marks
+Total: 27
+On answered questions: 80.6%
+On total questions: 27%
