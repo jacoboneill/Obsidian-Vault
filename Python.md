@@ -2,7 +2,7 @@
 
 Topics to Learn:
 - [x] [[Lists, Tuples, Sets, and Dictionaries]]
-- [ ] [[Iterators]]
+- [x] [[Iterators]]
 - [ ] [[RegEx]]
 - [ ] [[Decorators]]
 - [ ] [[Lambdas]]
