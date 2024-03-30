@@ -3,8 +3,8 @@
 Topics to Learn:
 - [x] [[Lists, Tuples, Sets, and Dictionaries]]
 - [x] [[Iterators]]
-- [ ] [[RegEx]]
-- [ ] [[Decorators]]
+- [x] [[RegEx]]
+- [x] [[Decorators]]
 - [ ] [[Lambdas]]
 - [ ] [[OOP in Python]]
 - [ ] [[Modules in Python]]
