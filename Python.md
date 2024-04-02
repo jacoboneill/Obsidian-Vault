@@ -6,7 +6,7 @@ Topics to Learn:
 - [x] [[RegEx]]
 - [x] [[Decorators]]
 - [x] [[Lambdas]]
-- [ ] [[OOP in Python]]
+- [x] [[Object-Oriented Programming Concepts|OOP in Python]]
 - [ ] [[Modules in Python]]
 - [ ] [[Package Managers in Python]]
 - [ ] [[List Comprehension]]
