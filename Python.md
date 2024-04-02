@@ -7,7 +7,7 @@ Topics to Learn:
 - [x] [[Decorators]]
 - [x] [[Lambdas]]
 - [x] [[Object-Oriented Programming Concepts|OOP in Python]]
-- [ ] [[Modules in Python]]
+- [x] [[Modules in Python]]
 - [ ] [[Package Managers in Python]]
 - [ ] [[List Comprehension]]
 - [ ] [[Generator Expressions]]
