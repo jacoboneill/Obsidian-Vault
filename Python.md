@@ -5,7 +5,7 @@ Topics to Learn:
 - [x] [[Iterators]]
 - [x] [[RegEx]]
 - [x] [[Decorators]]
-- [ ] [[Lambdas]]
+- [x] [[Lambdas]]
 - [ ] [[OOP in Python]]
 - [ ] [[Modules in Python]]
 - [ ] [[Package Managers in Python]]
